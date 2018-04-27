@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Зазывала и Лопух</string>
+    <string name="tv_res">Нажмите кнопку для продолжения</string>
+    <string name="btn_ace_diamonds">Туз бубей</string>
+    <string name="btn_ace_clubs">Туз треф</string>
+    <string name="btn_two_diamonds">Двойка бубей</string>
+    <string name="btn_two_clubs">Двойка треф</string>
+    <string name="btn_settings">Параметры</string>
+    <string name="btn_apply">Применить</string>
+    <string name="btn_refresh">Обновить</string>
+    <string name="tv_txt_mode_burdock">Лопух</string>
+    <string name="tv_txt_mode_barker">Зазывала</string>
+    <string name="tv_txt_matches_count">Количество матчей</string>
+    <string name="btn_playing">Начать</string>
+    <string name="txt_lose">Вы проиграли: %1$d, N = %2$d, M = %3$s</string>
+    <string name="txt_win">Вы выиграли: %1$d, N = %2$d, M = %3$s</string>
+    <string name="txt_dead_heat">Ничья: %1$d, N = %2$d, M = %3$s</string>
+    <string name="txt_added_rows">Добавлено %1$d строк, N = %2$d, M = %3$s</string>
+    <string name="sp_mode_optimal">Бот с оптимальной стратегией</string>
+    <string name="sp_mode_human">Человек</string>
+    <string name="sp_mode_random">Бот без стратегии</string>
+    <string name="gv_title_human">" Чел."</string>
+    <string name="gv_title_optimal">" Опт."</string>
+    <string name="gv_title_random">Случ.</string>
+    <string name="toast_burdock_changed">Доступен только один игрок-человек! Второй игрок изменён</string>
+    <string name="toast_barker_changed">Доступен только один игрок-человек! Второй игрок изменён</string>
+</resources>

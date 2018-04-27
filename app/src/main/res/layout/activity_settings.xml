@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="empty.barkerandburdock.SettingsActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTxtModeBarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/tv_txt_mode_barker" />
+
+        <Spinner
+            android:id="@+id/spModeBarker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edMatchesCount"
+            android:layout_alignStart="@+id/edMatchesCount"
+            android:layout_alignTop="@+id/tvTxtModeBarker" />
+
+        <TextView
+            android:id="@+id/tvTxtModeBurdock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spModeBurdock"
+            android:layout_alignLeft="@+id/tvTxtModeBarker"
+            android:layout_alignStart="@+id/tvTxtModeBarker"
+            android:text="@string/tv_txt_mode_burdock" />
+
+        <Spinner
+            android:id="@+id/spModeBurdock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spModeBarker"
+            android:layout_alignStart="@+id/spModeBarker"
+            android:layout_below="@+id/spModeBarker"
+            android:layout_marginTop="21dp" />
+
+        <TextView
+            android:id="@+id/tvTxtMatchesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvTxtModeBurdock"
+            android:layout_alignStart="@+id/tvTxtModeBurdock"
+            android:layout_below="@+id/tvTxtModeBurdock"
+            android:layout_marginTop="43dp"
+            android:text="@string/tv_txt_matches_count" />
+
+        <EditText
+            android:id="@+id/edMatchesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvTxtMatchesCount"
+            android:layout_alignBottom="@+id/tvTxtMatchesCount"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/ed_matches_count" />
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edMatchesCount"
+            android:layout_marginTop="44dp"
+            android:text="@string/btn_apply"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="331dp" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnApply"
+            android:layout_marginTop="11dp"
+            android:text="@string/btn_refresh" />
+
+        <GridView
+            android:id="@+id/gvExpValues"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnRefresh" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
