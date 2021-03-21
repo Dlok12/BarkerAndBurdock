@@ -25,4 +25,4 @@
 
 
 ### Demo
-![](/media/DemoRec.gif)
+![](/media/DemoRec.gif | height=100)
